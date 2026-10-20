@@ -3,6 +3,7 @@
 - 修复展开提示词中的画师串下拉框打开后可能立即消失的问题：自动定位和键盘导航只滚动菜单本身，避免 `scrollIntoView()` 连带滚动宿主页面，触发关闭菜单。
 - 保留打开时定位当前画师串、菜单内滚动、外部点击及 Esc 关闭的行为。
 - 更新版本号及随包发布的 `dist` 文件为 0.3.3。
+- 此版本发布到 `elarapp0431-stack/ST-BaiBai-Image-enhanced`，安装地址、插件主页和更新检查同步切换至该仓库。
 - 验证：类型检查、生产构建和画师导航的 3 项测试通过；新增回归测试在旧实现上失败、修复后通过。桌面及手机尺寸的隔离浏览器页面交互通过，尚未连接实际 TauriTavern 实例。
 - 全量测试：789 项通过、3 项跳过、1 项既有失败，仍为下文记录的 `autoTag/prompt.test.ts` 断言，与本次修复无关。
 
@@ -19,7 +20,7 @@
 
 ## 使用修改版
 
-本增强版仓库为 `https://github.com/TerriaLynnn/ST-BaiBai-Image-enhanced`，插件主页、安装地址与更新检查均指向此仓库，原作者及上游来源保留在 README 中。
+本增强版仓库为 `https://github.com/elarapp0431-stack/ST-BaiBai-Image-enhanced`，插件主页、安装地址与更新检查均指向此仓库。原增强版来源为 `https://github.com/TerriaLynnn/ST-BaiBai-Image-enhanced`，原作者及上游来源保留在 README 中及 Git 历史中。
 
 源码和 `dist` 产物均已更新，无需自行编译。将本包内文件覆盖到酒馆中**已安装的柏宝绘插件目录**（以其中的 `manifest.json` 为准），随后强制刷新酒馆页面。保持原有插件目录名，避免重复安装。
 

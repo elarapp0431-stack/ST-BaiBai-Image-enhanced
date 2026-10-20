@@ -62,7 +62,7 @@
 在 SillyTavern 的「扩展 → 安装扩展」里填入本仓库地址即可：
 
 ```
-https://github.com/TerriaLynnn/ST-BaiBai-Image-enhanced
+https://github.com/elarapp0431-stack/ST-BaiBai-Image-enhanced
 ```
 
 安装后进入「设置」页：先到「渠道」页配置出图渠道（本地 ComfyUI 或 NovelAI 账号），再确认「自动生成 tag」开关已打开，就可以开始自动配图了。设置会随 SillyTavern 保存在服务器，跨设备自动同步。
